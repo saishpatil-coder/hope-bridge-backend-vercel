@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/auth/register",
+      "dest": "/api/auth/register.js"
+    },
+    {
+      "src": "/api/auth/login",
+      "dest": "/api/auth/login.js"
+    },
+    {
+      "src": "/api/auth/admin-login",
+      "dest": "/api/auth/admin-login.js"
+    },
+    {
+      "src": "/api/auth/admin-register",
+      "dest": "/api/auth/admin-register.js"
+    },
+    {
+      "src": "/api/requirements",
+      "dest": "/api/requirements.js"
+    },
+    {
+      "src": "/api/medical-requirements",
+      "dest": "/api/medical-requirements.js"
+    },
+    {
+      "src": "/api/expenditure",
+      "dest": "/api/expenditure.js"
+    },
+    {
+      "src": "/api/residents",
+      "dest": "/api/residents.js"
+    },
+    {
+      "src": "/api/stories",
+      "dest": "/api/stories.js"
+    },
+    {
+      "src": "/api/donations",
+      "dest": "/api/donations.js"
+    }
+  ]
+} 
