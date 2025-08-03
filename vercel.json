@@ -47,10 +47,5 @@
       "src": "/api/donations",
       "dest": "/api/donations.js"
     }
-  ],
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  ]
 }
